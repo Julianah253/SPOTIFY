@@ -1,0 +1,202 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.both
+{
+    display: flex;
+
+    .spotify__menu
+    {
+        width: 18%;
+        padding: 20px;
+        border: 2px solid black;
+        height: 100%;
+        background-color: #0c0a09;
+        border: none;
+        // position: fixed;
+        overflow: auto;
+        
+        aside 
+        {
+            .green
+            {
+                font-size: 40px;
+                text-decoration: none;
+                color: rgb(86, 240, 86);
+                font-weight: 600;
+                
+                i 
+                {
+                    font-size: 40px;
+                }
+            }
+
+            .a__href
+            {
+                text-decoration: none;
+                color: #737373;
+                padding: 20px;
+                font-size: 20px;
+                
+                &:hover 
+                {
+                    color: #fff;
+                }
+
+                i 
+                {
+                    font-size: 20px;
+                    padding: 20px;
+                }
+            }
+        }
+
+        .bottom 
+        {
+            line-height: 40px;
+            h4 
+            {
+                color: #737373;
+                padding-bottom: 10px;
+
+                &:hover 
+                {
+                    color: #fff;
+                }
+            }
+
+            p 
+            {
+                color: #737373;
+                cursor: pointer;
+                font-weight: 500;
+                &:hover 
+                {
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+    .main
+    {
+        background: linear-gradient(180deg,#991b1b,rgb(23,23,23) 40%);
+        // background: linear-gradient(180deg,#0c0a09);
+        width: 100%;
+        #icon
+        {
+            display: flex;
+            position: fixed;
+            gap: 75rem;
+            align-items: center;
+            width: 100%;
+
+            .arrows
+            {
+                padding: 40px;
+                display: flex;
+                gap: 20px;    
+
+                i 
+                {
+                    font-size: 25px;
+                    padding: 10px;
+                    width: 45px;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    background-color: #302e2eb3;
+                    color: #fff;
+                    cursor: pointer;
+                    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
+                }
+            }
+
+            .user
+            {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                gap: 20px;
+                a 
+                {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-decoration: none;
+                    color: #fff;
+                    gap: 10px;
+                    font-size: 18px;
+                    font-weight: 500;
+                    cursor: pointer;
+
+                    i 
+                    {
+                        font-size: 30px;
+                        color: #fff;
+                        font-weight: 500;
+                        cursor: pointer;
+                        box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
+                    }
+    
+                }
+
+                i 
+                {
+                    font-size: 30px;
+                    color: #fff;
+                    font-weight: 600;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    .div
+    {
+        box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
+        // background-color: #991b1b;
+        display: flex;
+        gap: 20px;
+
+        .img_all
+        {
+            padding-left: 50px;
+            img 
+            {
+                border-radius: 10px;
+                box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
+            }
+        }
+
+        .heading
+        {
+            padding-top: 150px;
+            h6 
+            {
+                color: #fff;
+                text-align: start;
+            }
+
+            h1 
+            {
+                color: #fff;
+                text-align: start;
+            }
+        }
+    }
+}
+
+
+
+.window-scroll
+{
+    background-color: #991b1b;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
+}
